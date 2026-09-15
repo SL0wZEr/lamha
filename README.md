@@ -59,6 +59,12 @@ o.bind("SUPER + I", "Ask", "omarchy-shell -q shell toggle io.github.sl0wzer.lamh
 
 You'll need a default agent installed and signed in.
 
+Remove it with:
+
+```bash
+omarchy plugin remove io.github.sl0wzer.lamha
+```
+
 ## Settings (optional)
 
 In `~/.config/omarchy/shell.json`, on Lamha's entry:
