@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.sl0wzer.lamha",
+  "name": "Lamha",
+  "version": "0.2.0",
+  "author": "sl0wzer",
+  "license": "MIT",
+  "description": "Ask your agent from anywhere — a pill that morphs into an answer",
+  "kinds": [
+    "overlay"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "Overlay.qml"
+  }
+}
