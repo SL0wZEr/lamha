@@ -1332,6 +1332,7 @@ Item {
                         anchors.topMargin: Style.space(8)
                         anchors.bottomMargin: Style.space(8)
                         text: entry.entryText
+                        textFormat: Text.PlainText
                         color: root.foreground
                         font.family: Style.font.family
                         font.pixelSize: Style.font.subtitle
@@ -1435,7 +1436,7 @@ Item {
                       text: root.settled(entry.entryText, entry.streaming)
                       readOnly: true
                       selectByMouse: true
-                      textFormat: TextEdit.MarkdownText
+                      textFormat: TextEdit.PlainText
                       wrapMode: TextEdit.Wrap
                       renderType: Text.QtRendering
                       color: entry.entryFailed ? Color.urgent : root.foreground
